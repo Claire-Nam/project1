@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    background-color: #f0efef
+}
+
+a {
+    text-decoration: none;
+    color: #838181;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #222222;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
