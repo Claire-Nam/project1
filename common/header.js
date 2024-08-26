@@ -6,7 +6,7 @@ window.__globalHeader = `
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="검색어를 입력해주세요">
-                    <img src="image/search.png" alt="검색">
+                    <img src="image/search.png" alt="검색" onClick={}>
             </div>
         </div>
     </header>`
