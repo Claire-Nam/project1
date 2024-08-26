@@ -5,36 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enjoy your Local!</title>
     <link rel="stylesheet" href="/train.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="image\favicon-rm.png">
 </head>
 <body>
-    <header role="header">
+    <header role="header" id="header">
         <div class="head-container">
-            <div class="nav">
-                <div class="nav-bar">
-                    <ul>
-                        <li><a href="train.html">관광지 정보</a></li>
-                        <li><a href="restaurant.html">지역 맛집</a></li>
-                        <li><a href="festival.html">축제 정보</a></li>
-                        <li><a href="park.html">주차 정보</a></li>
-                    </ul>
-                </div>
-                <div class="search-bar">
-                    <input type="text" placeholder="검색어를 입력해주세요">
-                    <img src="./image/search.png" alt="검색">
+            <div class="logo">
+                    <img src="#" alt="로고">
             </div>
+            <div class="search-bar">
+                <input type="text" placeholder="검색어를 입력해주세요">
+                    <img src="image/search.png" alt="검색">
             </div>
-    </header>
-    <main role="main">
-        <div class="main-container">
-            <div></div>
-            <div></div>
-            <div></div>
         </div>
+    </header>
+    <main role="main" id="main">
+        <div class="main-container">
+            <div>
+                <!-- 여행지 이미지 카드 슬라이스 -->
+            </div>
+            <div>
+                <!-- 추천 여행지 API 삽입 -->
+            </div>
+        </div>      
     </main>
-    <footer>
-        <div></div>
-        <div></div>
-        <div></div>
+    <footer id="footer">
+        <div class="nav-bar">
+            <ul>
+                <li><a href="train.html">
+                    <img src="image/house.svg" alt="home"> <br />
+                    Home</a></li>
+                <li><a href="restaurant.html">
+                    <img src="image/cup-hot.svg" alt="foods"> <br />Foods</a></li>
+                <li><a href="festival.html">
+                    <img src="image/flower2.svg" alt="festival"> <br />Travel</a></li>
+                <li><a href="park.html">
+                    <img src="image/p-square.svg" alt="park"> <br />Parking</a></li>
+            </ul>
+        </div>
     </footer>
     <script type="text/javascript" src="train.js"></script>
 </body>
