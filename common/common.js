@@ -1,2 +1,4 @@
 document.body.innerHTML = 
-    window.__globalHeader + document.body.innerHTML + window.__globalNav;
+    document.body.innerHTML + window.__globalNav;
+
+    // window.__globalHeader +

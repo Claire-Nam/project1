@@ -1,9 +1,6 @@
 window.__globalHeader = `
     <header role="header" id="header">
         <div class="head-container">
-            <span class="logo">
-                <img src="image/korea_culture_logo.jpg" alt="로고">
-            </span>
             <div class="search-bar">
                 <img src="image/search.png" alt="검색" onClick={}>
                 <input type="text" placeholder="검색어를 입력해주세요" size="35">
@@ -11,3 +8,6 @@ window.__globalHeader = `
         </div>
     </header>`
 
+//     <span class="logo">
+//     <img src="image/korea_culture_logo.jpg" alt="로고">
+// </span>

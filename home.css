@@ -1,0 +1,28 @@
+h2 {  
+    text-align: center;
+    font-size: 400px;;
+    font-weight: bold;
+    color: #C4624F;
+}
+
+/* 캐러셀 슬라이드 */
+.carousel {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 500px; /* 캐러셀의 최대 높이 */
+}
+
+.carousel-item {
+    max-height: 500px; /* 캐러셀 아이템의 최대 높이 */
+}
+
+.carousel-inner img {
+    width: 100%; /* 이미지를 캐러셀의 폭에 맞게 조정 */
+    height: auto; /* 이미지 높이는 자동으로 조정 */
+    max-height: 500px; /* 이미지의 최대 높이 */
+}
+
