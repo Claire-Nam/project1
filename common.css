@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
 
 body {
- background-color: #d3d3d3; /* 전체 페이지 배경을 회색으로 */
+    background-color: #d3d3d3; /* 전체 페이지 배경을 회색으로 */
     margin: 0; /* 브라우저 기본 여백 제거 */
     padding: 0;
-    font-family: 'Nerko One', sans-serif;
+    font-family: 'Nerko One', 'Cute Font', sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: center; /* 메인 콘텐츠를 수평 중앙에 배치 */
-    background-image: url('image/background.jpg');
     max-width: 1230px; /* 콘텐츠 영역의 최대 폭 */
+    background-image: url('image/background.jpg');
     
+}
+
+.container::before {
+    content: "";
+    background-image: url('image/background.jpg');
+    opacity: 0.8;
+    position: absolute;
 }
 
 .content {

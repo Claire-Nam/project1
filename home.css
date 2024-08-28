@@ -1,8 +1,12 @@
 h2 {  
     text-align: center;
-    font-size: 400px;;
+    font-size: 50px;;
     font-weight: bold;
-    color: #C4624F;
+    color: #224382;
+}
+
+h5, p {
+    font-size: 30px;
 }
 
 /* 캐러셀 슬라이드 */
