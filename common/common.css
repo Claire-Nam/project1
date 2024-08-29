@@ -8,14 +8,22 @@
 }
 
 /* 상단바 */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .place{
-    margin-left: 337px;
-    padding: 5px 10px;
+    padding: 20px 10px;
     width: 100%;
     height: 30px;
     max-width: 1230px;
     background-image: url('../image/background.jpg');
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -24,13 +32,12 @@ nav input {
     border: 1px solid #d3d3d3;
     background-color: #EDEBDC;
     height: 25px;
-    
+    margin-left: 780px;
 }
 
 nav img {
     margin-top: 6px;
     height: 30px;
-    position: absolute;
 } 
 
 nav button {
@@ -39,7 +46,6 @@ nav button {
     border-radius: 15%;
     background-color: #FCF7F1;
     cursor: pointer;
-    margin-right: 790px;
     font-size: 24px;
     color: #7F8D60;
 }
