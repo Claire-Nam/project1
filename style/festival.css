@@ -25,3 +25,18 @@ h2 {
   height: auto; /* 이미지 높이는 자동으로 조정 */
   max-height: 500px; /* 이미지의 최대 높이 */
 }
+
+#theme {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#local {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 15rem;
+  margin: 5px auto;
+}
