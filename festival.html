@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enjoy your Local!</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="icon" type="image/png" sizes="96x96" href="image/favicon-rm.png">
-    <link rel="stylesheet" href="common/common.css">
-    <link href="festival.css" rel="stylesheet">
-    <meta name="title" content="Enjoy your Local! - 지역 축제 정보">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="image/favicon-rm.png"
+    />
+    <link rel="stylesheet" href="common/common.css" />
+    <link href="festival.css" rel="stylesheet" />
+    <meta name="title" content="Enjoy your Local! - 지역 축제 정보" />
+  </head>
+  <body>
     <div class="container">
-        <!-- 상단바 -->
+      <!-- 상단바 -->
 
-    <!-- 메인 콘텐츠 -->
-        <div class="content">
-            <!-- 축제 이미지 -->
-            <h2>이달의 축제</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="image/sep_festival1.jpg" class="d-block w-100">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="image/sep_festival2.jpg" class="d-block w-100">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="image/sep_festival3.jpg" class="d-block w-100">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <br />
-
-            <h2>테마 관광 축제</h2>
-            <div class="card" style="width: 15rem;">
-                <img src="image/spicy.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">영양 고추 HOT 페스티벌</h5>
-                  <p class="card-text">API 연결 예정</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-
-              <h2>지역 향토 문화 축제</h2>
-            <div class="card" style="width: 15rem;">
-                <img src="image/culture.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">공주 문화 유산 야행</h5>
-                  <p class="card-text">API 연결 예정</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+      <!-- 메인 콘텐츠 -->
+      <div class="content">
+        <!-- 축제 이미지 -->
+        <h2 class="mon-festival"></h2>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/sep_festival1.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+              <img src="image/sep_festival2.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+              <img src="image/sep_festival3.jpg" class="d-block w-100" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+        <br />
+
+        <h2>테마 관광 축제</h2>
+        <div class="card" style="width: 15rem">
+          <img src="image/spicy.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">영양 고추 HOT 페스티벌</h5>
+            <p class="card-text">API 연결 예정</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <h2>지역 향토 문화 축제</h2>
+        <div class="card" style="width: 15rem">
+          <img src="image/culture.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">공주 문화 유산 야행</h5>
+            <p class="card-text">API 연결 예정</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style = "height: 80px;"></div>
-        <!-- 하단바 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div style="height: 80px"></div>
+    <!-- 하단바 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="festival.js"></script>
     <script src="common/nav.js"></script>
     <script src="common/header.js"></script>
     <script src="common/common.js"></script>
-</body>
+  </body>
 </html>

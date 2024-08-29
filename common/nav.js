@@ -2,7 +2,7 @@ window.__globalNav = `
      <footer>
     <div class="nav-bar">
         <ul>
-            <li><a href="home.html">
+            <li><a href="index.html">
                 <img src="image/house.svg" alt="home"> <br />
                 Home</a></li>
             <li><a href="foods.html">
