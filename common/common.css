@@ -8,15 +8,15 @@
 }
 
 /* 상단바 */
-nav{
+.place{
+    margin-left: 337px;
+    padding: 5px 10px;
     width: 100%;
     height: 30px;
-}
+    max-width: 1230px;
+    background-image: url('../image/background.jpg');
+    position: relative;
 
-.place{
-    padding: 10px 30px;
-    /* display: inline-flexbox;
-    justify-content: space-between; */
 }
 
 nav input {
@@ -28,9 +28,9 @@ nav input {
 }
 
 nav img {
+    margin-top: 6px;
     height: 30px;
     position: absolute;
-    margin: 0 auto;
 } 
 
 nav button {
@@ -39,7 +39,9 @@ nav button {
     border-radius: 15%;
     background-color: #FCF7F1;
     cursor: pointer;
-    margin-right: 780px;
+    margin-right: 790px;
+    font-size: 24px;
+    color: #7F8D60;
 }
 
 
