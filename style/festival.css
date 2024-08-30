@@ -40,3 +40,7 @@ h2 {
   width: 15rem;
   margin: 5px auto;
 }
+
+#local .card img {
+  height: 190px;
+}

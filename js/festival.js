@@ -11,3 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   getMonths();
 });
+
+const swiperElements = document.getElementsByClassName(".swiper");
+
+const swiper = new Swiper("swiperElements", {
+  virtual: {
+    enabled: true,
+  },
+});
