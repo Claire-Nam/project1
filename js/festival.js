@@ -14,42 +14,22 @@ document.addEventListener("DOMContentLoaded", function () {
   getMonths();
 
   // Swiper 초기화
-const swiper = new Swiper(".swiper-container", {
-    height: 400,
-    width: 240,
-    direction: 'horizontal',
-    effect: 'coverflow',
-  
+  const swiper = new Swiper(".swiper", {
+    direction: "horizontal", // 가로로 넘기기
+    loop: true, // 슬라이드 무한 반복
     slidesPerView: 1,
-    centeredSlides: false,
-    spaceBetween: 30,
-    freeMode: true,
-    freeModeSticky: true,
-    mousewheel: true,
-    slideToClickedSlide: true,
-    pagination: {
-      el: ".swiper-pagination",
-      type: "fraction"
+    spaceBetween: 10,
+    autoplay: {
+      delay: 3000, // 3초 간격으로 자동으로 넘어감
     },
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      draggable: true,
-      dragSize: 40,
-    },
-    virtual: {
-      slides: (function() {
-        var slides = [];
-        for (var i = 0; i < 600; i += 1) {
-          slides.push(
-            '<img src="https://picsum.photos/600/600/?image=' +
-              (i + 1) +
-              '"/><p>' +
-              (i + 1) +
-              "</p>"
-          );
-        }
-        return slides;
-      })()
-    }
+    // virtual: {
+    //   enabled: true,
+    //   slides: Array.from({ length: 5 }, (_, index) => {
+    //     // 이미지 슬라이드를 가상으로 생성
+    //     return `<div class="swiper-slide"><img src="image/festival_image_${
+    //       index + 1
+    //     }.jpg" alt="Slide ${index + 1}"></div>`;
+    //   }),
+    // },
   });
-  
+});

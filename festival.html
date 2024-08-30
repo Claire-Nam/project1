@@ -14,7 +14,10 @@
     />
 
     <!-- swiper css 적용 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     
     <link
       rel="icon"
@@ -32,12 +35,17 @@
 
       <!-- 메인 콘텐츠 -->
       <div class="content">
-        <!-- 축제 이미지 -->
-         <h2>Swiper 들어갈 공간</h2>
-        <div class="swiper-container">
-          <div class="swiper-wrapper"></div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-scrollbar"></div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="image/culture1.jpg"><p class="slide-text">쁘띠 프랑스 & 이탈리아 베니스 가면 축제</p></div>
+            <div class="swiper-slide"><img src="image/culture2.jpg"><p class="slide-text">살귀옥</p></div>
+            <div class="swiper-slide"><img src="image/spicy.jpg"><p class="slide-text">영양 고추 축제</p></div>
+            <div class="swiper-slide"><img src="image/culture4.png"><p class="slide-text">화성 뱃놀이 축제</p></div>
+            <div class="swiper-slide"><img src="image/culture3-rmt.jpg"><p class="slide-text">조선 살인 수사</p></div>
+          </div>
         </div>
         <br />
 
@@ -146,7 +154,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+      <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- swiper cdn -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- 기타 스크립트 -->
     <script src="js/festival.js"></script>
     <script src="common/nav.js"></script>
     <script src="common/header.js"></script>
