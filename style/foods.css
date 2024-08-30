@@ -6,6 +6,13 @@ h2 {
   color: #224382;
 }
 
+h3 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #c816ec;
+  margin-left: 20px;
+}
+
 /* 카드들을 감싸는 div 스타일 */
 .cards {
   display: grid;
