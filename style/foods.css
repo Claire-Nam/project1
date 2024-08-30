@@ -19,8 +19,12 @@ h2 {
 /* 카드 스타일 */
 .card {
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 35px;
   overflow: hidden;
+}
+
+.card img {
+  height: 250px;
 }
 
 /* 표 스타일 */
