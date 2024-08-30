@@ -70,3 +70,11 @@ h2 {
 #local .card img {
   height: 190px;
 }
+
+.card-body a {
+  display: flex;
+  justify-content: center;
+  background-color: #f2d2cf;
+  border: none;
+  color: #2e3b10;
+}
