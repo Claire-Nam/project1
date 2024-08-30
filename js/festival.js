@@ -22,14 +22,5 @@ document.addEventListener("DOMContentLoaded", function () {
     autoplay: {
       delay: 3000, // 3초 간격으로 자동으로 넘어감
     },
-    // virtual: {
-    //   enabled: true,
-    //   slides: Array.from({ length: 5 }, (_, index) => {
-    //     // 이미지 슬라이드를 가상으로 생성
-    //     return `<div class="swiper-slide"><img src="image/festival_image_${
-    //       index + 1
-    //     }.jpg" alt="Slide ${index + 1}"></div>`;
-    //   }),
-    // },
   });
 });

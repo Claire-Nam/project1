@@ -4,7 +4,7 @@ const searchInput = document.getElementById("searchInput");
 const resultElements = document.getElementsByClassName("content");
 
 // 검색 버튼 클릭 시 이벤트 처리
-searchButton.addEventListener("click", handleSearch);
+searchButton.addEventListener("click", handleSearch(e));
 
 // 키보드 엔터 키의 이벤트 처리
 searchInput.addEventListener("keypress", function (e) {
