@@ -24,3 +24,22 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+
+// api 연결하기
+$(document).ready(function () {
+  $.ajax({
+    url: "https://thingproxy.freeboard.io/fetch/http://api.kcisa.kr/openapi/API_CNV_061/request?serviceKey=0d282533-0ef6-43a3-b4e7-f9dddc189d37&numOfRows=10&pageNo=1",
+    method: "GET",
+    dataType: "json",
+    contentType: "application/json",
+    headers: {
+      "x-requested-with": "XMLHttpRequest", // Ajax 요청임을 명시
+    },
+    success: function (res) {
+      console.log("성공: ", res);
+    },
+    error: function (err) {
+      console.log("실패: ", err);
+    },
+  });
+});
